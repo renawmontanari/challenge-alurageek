@@ -1,0 +1,10 @@
+{
+    "produto": [
+        {
+            "nome": "Darth",
+            "preco": "30",
+            "imagem": "https://i.pinimg.com/474x/51/e3/7c/51e37c2b688170cdc07888eba287bfd1.jpg",
+            "id": 1
+        }
+    ]
+}
