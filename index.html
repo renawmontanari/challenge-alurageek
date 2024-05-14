@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AluraGeek</title>
+    <title>FunkoGeek</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </head>
 <body>
 
@@ -14,9 +15,23 @@
     </header>
 
     <main>
-        <div data-product>
+        <section>
+            <div data-product></div>
+        </section>
+        
+        <section>
+            <h1>Adicionar produto</h1>
+            <form data-form>
+                <input type="text" data-name>
+                <input type="text" data-price>
+                <input type="text" data-image>
 
-        </div>
+                <div>
+                    <button type="submit" class="" id="button">Adicionar</button>
+                    <button type="reset" class="" id="button">Limpar</button>
+                </div>
+            </form>
+        </section>
     </main>
     
     <footer>
