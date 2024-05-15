@@ -1,4 +1,66 @@
 
+main {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(36, 36, 36);
+}
+
+section {
+    width: 50%;
+    height: 80vh;
+    padding: 20px;
+}
+
+nav {
+    height: 40px;
+}
+
+form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.secao-cartao {
+    width: 1500px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: blue;
+    overflow: auto;
+}
+
+.cartao-produtos {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 15px;
+}
+
 .cartao {
+    width: 200px;
+    height: 250px;
     background-color: aqua;
+}
+
+.img-container {
+    width: 200px;
+    height: 150px;
+}
+
+.card-container--info {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+}
+
+.card-container--value {
+    display: flex;
+    flex-direction: row;
+}
+
+.secao-add-produto {
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
 }
