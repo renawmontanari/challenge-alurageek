@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FunkoGeek</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.png">
+    <title>RocketStore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
@@ -12,7 +16,9 @@
 
     <header>
         <nav>
-            <div class="logo">logo</div>
+            <div class="logo">
+                <img clas="img-logo" src="./assets/img/logo.png" alt="logo">
+            </div>
         </nav>
     </header>
 
@@ -24,21 +30,21 @@
         <section class="secao-add-produto">
             
             <form data-form>
-                <h1>Adicionar produto</h1>
-                <input type="text" data-name>
-                <input type="text" data-price>
-                <input type="text" data-image>
+                <h1 class="titulo-add-produto">Adicionar produto</h1>
+                <input type="text" placeholder="Ex: Funko" data-name>
+                <input type="text" placeholder="Ex: 45" data-price>
+                <input type="text" placeholder="Ex: https://bn0.gstatic.com/img?q=tn:d9G" data-image>
 
                 <div>
-                    <button type="submit" class="" id="button">Adicionar</button>
-                    <button type="reset" class="" id="button">Limpar</button>
+                    <button type="submit" class="btn-add" id="button">Adicionar</button>
+                    <button type="reset" class="btn-limpar" id="button">Limpar</button>
                 </div>
             </form>
         </section>
     </main>
     
     <footer>
-        <div>Desenvolvido por Renan W. Montanari</div>
+        <div class="texto-footer">Desenvolvido por Renan W. Montanari</div>
     </footer>
 
     <script src="./assets/js/controller/main.js" type="module"></script>

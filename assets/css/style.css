@@ -1,7 +1,13 @@
+html {
+    background-color: rgb(0, 0, 0);
+}
 
 main {
     display: flex;
     flex-direction: row;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     background-color: rgb(36, 36, 36);
 }
 
@@ -12,8 +18,10 @@ section {
 }
 
 nav {
-    height: 40px;
-    background-color: rgb(202, 202, 202);
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
 }
 
 form {
@@ -21,6 +29,24 @@ form {
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+input {
+    height: 45px;
+    padding-left: 15px;
+    outline: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+.img-logo {
+    width: 300px;
+    height: 80px;
 }
 
 .secao-cartao {
@@ -34,6 +60,7 @@ form {
 .cartao-produtos {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
     gap: 10px;
 }
 
@@ -42,12 +69,7 @@ form {
     height: 250px;
     border-radius: 8px;
     padding: 8px;
-    background-color: rgb(202, 202, 202);
-}
-
-.cartao:hover {
-    height: 255px;
-    background-color: rgba(192, 192, 192, 0.897);
+    background-color: #FFB529;
 }
 
 .img-container {
@@ -71,4 +93,22 @@ form {
     display: flex;
     flex-direction: column;
     flex-flow: row wrap;
+}
+
+.titulo-add-produto {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #DB184D;
+}
+
+.btn-add,
+.btn-limpar {
+    width: 130px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #DB184D;
+    background-color: #FFB529;
 }
