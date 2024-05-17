@@ -16,9 +16,9 @@ function criarElemento(nome, preco, imagem, id) {
         <div class="card-container--info">
             <p class="titulo-cartao">${nome}</p>
             <div class="card-container--value">
-                <p>${preco}</p>
+                <p>R$ ${preco}</p>
                 <button class="delete-button" data-id="${id}">
-                    <img src="./assets/img/trash.png" alt="excluir">
+                    <i class='bx bxs-trash-alt' style='color:#db184d'  ></i>
                 </button>
             </div> 
         </div>

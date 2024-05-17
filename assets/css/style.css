@@ -13,7 +13,7 @@ main {
 
 section {
     width: 50%;
-    height: 80vh;
+    height: 75vh;
     padding: 20px;
 }
 
@@ -46,10 +46,15 @@ input {
 }
 
 footer {
+    height: 50px;
     display: flex;
     justify-content: center;
     color: white;
     background-color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    align-items: center;
 }
 
 .img-logo {
@@ -65,6 +70,25 @@ footer {
     background-color: rgb(36, 36, 36);
 }
 
+.secao-cartao::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+.secao-cartao::-webkit-scrollbar-track {
+    background: #555;
+}
+
+.secao-cartao::-webkit-scrollbar-thumb {
+    background: #FFB529;
+    border-radius: 6px;
+    border: 2px solid transparent;
+}
+
+.secao-cartao::-webkit-scrollbar-thumb:hover {
+    background: #DB184D;
+}
+
 .cartao-produtos {
     display: flex;
     flex-flow: row wrap;
@@ -74,8 +98,9 @@ footer {
 }
 
 .cartao {
-    width: 180px;
-    height: 250px;
+    width: 140px;
+    height: 200px;
+    display: flex;
     border-radius: 8px;
     padding: 8px;
     background-color: #FFB529;
@@ -85,10 +110,11 @@ footer {
     color: black;
     font-size: 1.2rem;
     font-weight: 500;
+    margin-bottom: 15px;
 }
 
 .img-container {
-    width: 180px;
+    width: 140px;
     height: 150px;
 }
 
@@ -102,6 +128,12 @@ footer {
 .card-container--value {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+.delete-button {
+    cursor: pointer;
+    font-size: large;
 }
 
 .secao-add-produto {
@@ -146,4 +178,8 @@ footer {
     font-weight: 600;
     color: #DB184D;
     background-color: #FFB529;
+}
+
+.bxs-rocket {
+    color: #FFB529;
 }
