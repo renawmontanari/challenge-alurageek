@@ -35,6 +35,14 @@ input {
     height: 45px;
     padding-left: 15px;
     outline: none;
+    color: aliceblue;
+    font-weight: 450;
+    border-radius: 5px;
+    background-color: rgba(151, 151, 151, 0.521);
+}
+
+::placeholder {
+    color: #ffffff5e;
 }
 
 footer {
@@ -53,14 +61,15 @@ footer {
     width: 1500px;
     display: flex;
     flex-flow: row wrap;
-    background-color: rgb(36, 36, 36);
     overflow: auto;
+    background-color: rgb(36, 36, 36);
 }
 
 .cartao-produtos {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     gap: 10px;
 }
 
@@ -70,6 +79,12 @@ footer {
     border-radius: 8px;
     padding: 8px;
     background-color: #FFB529;
+}
+
+.titulo-cartao {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .img-container {
@@ -93,12 +108,32 @@ footer {
     display: flex;
     flex-direction: column;
     flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-form-produto {
+    width: 360px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: center;
+    border: solid 1px #FFB529;
+    box-shadow: 1px 2px 10px #FFB529;
 }
 
 .titulo-add-produto {
     font-size: 1.4rem;
     font-weight: 600;
+    letter-spacing: 2px;
     color: #DB184D;
+}
+
+.caixa-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .btn-add,

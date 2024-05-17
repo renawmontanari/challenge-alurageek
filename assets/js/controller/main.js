@@ -14,7 +14,7 @@ function criarElemento(nome, preco, imagem, id) {
         </div>
 
         <div class="card-container--info">
-            <p>${nome}</p>
+            <p class="titulo-cartao">${nome}</p>
             <div class="card-container--value">
                 <p>${preco}</p>
                 <button class="delete-button" data-id="${id}">
