@@ -31,6 +31,23 @@
     .cartao-produtos {
         justify-content: center;
     }
+
+    .texto-footer {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .alerta {
+        width: 300px;
+        font-weight: 0.4rem;
+    }
+
+    .alerta-warn {
+        width: 300px;
+        font-weight: 0.4rem;
+    }
 }
   
   /* iPads, tablets */

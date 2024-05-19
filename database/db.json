@@ -1,76 +1,46 @@
 {
   "produto": [
     {
-      "nome": "Darth",
-      "preco": "30",
-      "imagem": "https://i.pinimg.com/236x/ff/b5/54/ffb5545f371e6eac4047b2d5d8370468.jpg",
-      "id": "1"
+      "id": "01c5",
+      "nome": "Doctor Strange",
+      "preco": "149,90",
+      "imagem": "https://geekfanaticos.fbitsstatic.net/img/p/funko-pop-doctor-strange-169-doutor-estranho-marvel-70604/257088.jpg?w=540&h=540&v=no-change&qs=ignore"
     },
     {
-      "id": "5d0c",
-      "nome": "Teste ",
-      "preco": "100",
-      "imagem": "https://i.pinimg.com/236x/ff/b5/54/ffb5545f371e6eac4047b2d5d8370468.jpg"
+      "id": "a86b",
+      "nome": "Doctor Strange",
+      "preco": "139,90",
+      "imagem": "https://geekfanaticos.fbitsstatic.net/img/p/funko-pop-doctor-strange-1000-doctor-strange-and-the-multiverse-of-madness-doutor-estranho-e-o-73363/259850.jpg?w=540&h=540&v=no-change&qs=ignore"
     },
     {
-      "id": "5d0c",
-      "nome": "Teste ",
-      "preco": "100",
-      "imagem": "https://i.pinimg.com/236x/ff/b5/54/ffb5545f371e6eac4047b2d5d8370468.jpg"
+      "id": "350d",
+      "nome": "Doctor Strange",
+      "preco": "139,90",
+      "imagem": "https://geekfanaticos.fbitsstatic.net/img/p/funko-pop-doctor-strange-doutor-estranho-specialty-series-1008-doctor-strange-and-the-multiverse-72783/259270.jpg?w=540&h=540&v=no-change&qs=ignore"
     },
     {
-      "id": "5d0c",
-      "nome": "Teste ",
-      "preco": "100",
-      "imagem": "https://i.pinimg.com/236x/ff/b5/54/ffb5545f371e6eac4047b2d5d8370468.jpg"
+      "id": "bbcc",
+      "nome": "The Mandalorian",
+      "preco": "129,90",
+      "imagem": "https://geekfanaticos.fbitsstatic.net/img/p/funko-pop-the-mandalorian-326-star-wars-mandalorian-70134/256617-2.jpg?w=540&h=540&v=no-change&qs=ignore"
     },
     {
-      "id": "5d0c",
-      "nome": "Teste ",
-      "preco": "100",
-      "imagem": "https://i.pinimg.com/236x/ff/b5/54/ffb5545f371e6eac4047b2d5d8370468.jpg"
+      "id": "45ef",
+      "nome": "Mandalorian",
+      "preco": "149,90",
+      "imagem": "https://geekfanaticos.fbitsstatic.net/img/p/funko-pop-mandalorian-with-the-child-402-mandalorian-star-wars-72458/258945.jpg?w=540&h=540&v=no-change&qs=ignore"
     },
     {
-      "id": "5d0c",
-      "nome": "Teste ",
-      "preco": "100",
-      "imagem": "https://i.pinimg.com/236x/ff/b5/54/ffb5545f371e6eac4047b2d5d8370468.jpg"
+      "id": "e636",
+      "nome": "Luke",
+      "preco": "149,90",
+      "imagem": "https://geekfanaticos.fbitsstatic.net/img/p/funko-pop-luke-skywalker-with-grogu-482-mandalorian-star-wars-72995/259482.jpg?w=540&h=540&v=no-change&qs=ignore"
     },
     {
-      "id": "5d0c",
-      "nome": "Teste ",
-      "preco": "100",
-      "imagem": "https://i.pinimg.com/236x/ff/b5/54/ffb5545f371e6eac4047b2d5d8370468.jpg"
-    },
-    {
-      "id": "5d0c",
-      "nome": "Teste ",
-      "preco": "100",
-      "imagem": "https://i.pinimg.com/236x/ff/b5/54/ffb5545f371e6eac4047b2d5d8370468.jpg"
-    },
-    {
-      "id": "5d0c",
-      "nome": "Teste ",
-      "preco": "100",
-      "imagem": "https://i.pinimg.com/236x/ff/b5/54/ffb5545f371e6eac4047b2d5d8370468.jpg"
-    },
-    {
-      "id": "5d0c",
-      "nome": "Teste ",
-      "preco": "100",
-      "imagem": "https://i.pinimg.com/236x/ff/b5/54/ffb5545f371e6eac4047b2d5d8370468.jpg"
-    },
-    {
-      "id": "5d0c",
-      "nome": "Teste ",
-      "preco": "100",
-      "imagem": "https://i.pinimg.com/236x/ff/b5/54/ffb5545f371e6eac4047b2d5d8370468.jpg"
-    },
-    {
-      "id": "5d0c",
-      "nome": "Teste ",
-      "preco": "100",
-      "imagem": "https://i.pinimg.com/236x/ff/b5/54/ffb5545f371e6eac4047b2d5d8370468.jpg"
+      "id": "8004",
+      "nome": "Grogu",
+      "preco": "149,90",
+      "imagem": "https://geekfanaticos.fbitsstatic.net/img/p/funko-pop-grogu-with-armor-584-the-book-of-boba-star-wars-73957/260445.jpg?w=540&h=540&v=no-change&qs=ignore"
     }
   ]
 }

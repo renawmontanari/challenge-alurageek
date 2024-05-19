@@ -1,5 +1,7 @@
 import { servicosDosProdutos } from "../services/conectaApi.js";
 
+const alertaWarn = document.querySelector(".alerta-warn");
+
 document.addEventListener('click', async (event) => {
 
     const button = event.target.closest('.delete-button');
@@ -10,7 +12,11 @@ document.addEventListener('click', async (event) => {
             await servicosDosProdutos.deletarProduto(produtoId);
             document.querySelector(`[data-id="${produtoId}"]`).closest('.cartao').remove();
 
-            alert("produto excluido");
+            alertaWarn.style.display = "block";
+
+            setTimeout(() => {
+                alertaWarn.style.display = "none";
+            }, 4000);
 
         } catch (error) {
             console.error(`Erro ao deletar produto: ${error}`);

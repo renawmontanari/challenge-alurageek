@@ -2,6 +2,7 @@ import { servicosDosProdutos } from "../services/conectaApi.js";
 
 const containerDosProdutos = document.querySelector("[data-product]");
 const formularioProdutos = document.querySelector("[data-form]");
+const alerta = document.querySelector(".alerta");
 
 function criarElemento(nome, preco, imagem, id) {
 
@@ -50,6 +51,15 @@ const renderizar = async () => {
 
 };
 
+function mostrarAlerta(mensagem) {
+    alerta.textContent = mensagem;
+    alerta.style.display = "block";
+
+    setTimeout(() => {
+        alerta.style.display = "none";
+    }, 4000);
+};
+
 formularioProdutos.addEventListener("submit", async (evento) => {
 
     evento.preventDefault();
@@ -60,7 +70,7 @@ formularioProdutos.addEventListener("submit", async (evento) => {
 
     if (nome.trim() === '' || preco.trim() === '' || imagem.trim() === '') {
         Toastify({
-            text: "Por favor, preencha todos os campos antes de enviar o formulário.",
+            text: "Por favor, preencha todos os campos antes de adicionar o produto.",
             duration: 5000,
             close: true,
             gravity: "top", // `top` or `bottom`
@@ -76,8 +86,7 @@ formularioProdutos.addEventListener("submit", async (evento) => {
     try {
         await servicosDosProdutos.criarProduto(nome, preco, imagem);
 
-        alert("produto adicionado");
-
+        mostrarAlerta("Produto adicionado com sucesso!");
     } catch (error) {
         console.log(error); 
     }
