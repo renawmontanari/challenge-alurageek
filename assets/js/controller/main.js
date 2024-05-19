@@ -58,10 +58,26 @@ formularioProdutos.addEventListener("submit", async (evento) => {
     const preco = document.querySelector("[data-price]").value;
     const imagem = document.querySelector("[data-image]").value;
 
+    if (nome.trim() === '' || preco.trim() === '' || imagem.trim() === '') {
+        Toastify({
+            text: "Por favor, preencha todos os campos antes de enviar o formulário.",
+            duration: 5000,
+            close: true,
+            gravity: "top", // `top` or `bottom`
+            position: "center", // `left`, `center` or `right`
+            stopOnFocus: true, // Prevents dismissing of toast on hover
+              style: {
+                background: "#ef4444",
+              },
+        }).showToast();
+        return;
+    }
+
     try {
         await servicosDosProdutos.criarProduto(nome, preco, imagem);
 
-        window.location.href = "./index.html";
+        alert("produto adicionado");
+
     } catch (error) {
         console.log(error); 
     }

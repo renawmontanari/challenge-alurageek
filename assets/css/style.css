@@ -146,7 +146,7 @@ footer {
 
 .caixa-form-produto {
     width: 360px;
-    height: 350px;
+    height: 380px;
     display: flex;
     align-items: center;
     border-radius: 8px;
@@ -182,4 +182,10 @@ footer {
 
 .bxs-rocket {
     color: #FFB529;
+}
+
+.mensagem-erro {
+    color: red;
+    font-weight: 400;
+    font-size: 0.8rem;
 }

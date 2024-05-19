@@ -1,3 +1,4 @@
+
 async function listaDeProdutos() {
 
     const conexao = await fetch("http://localhost:3000/produto");
@@ -32,9 +33,22 @@ async function criarProduto(nome, preco, imagem) {
 
 };
 
+async function deletarProduto(id) {
+
+    const conexao = await fetch(`http://localhost:3000/produto/${id}`, {
+        method: "DELETE",
+    });
+
+    if (!conexao.ok) {
+        throw new Error(`Não foi possível deletar o produto com o id ${id}: ${resposta.status}`);
+    };
+
+};
+
 export const servicosDosProdutos = {
 
     listaDeProdutos,
-    criarProduto
+    criarProduto,
+    deletarProduto
 
 };

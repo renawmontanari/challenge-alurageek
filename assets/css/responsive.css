@@ -1,0 +1,70 @@
+/* Dispositivos móveis */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    main {
+        flex-direction: column-reverse;
+    }
+
+    form {
+        width: 390px;
+        gap: 15px;
+    }
+    
+    section {
+        width: 100%;
+        height: auto;
+    }
+    
+    .secao-cartao {
+        width: auto;
+    }
+    
+    .caixa-form-produto {
+        width: 280px;
+        padding: 25px;
+        height: auto;
+    }
+
+    .secao-add-produto {
+        width: auto;
+    }
+
+    .cartao-produtos {
+        justify-content: center;
+    }
+}
+  
+  /* iPads, tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .cartao {
+        width: 135px;
+    }
+
+    .img-container {
+        width: 135px;
+    }
+}
+  
+  /* Telas pequenas, laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .cartao {
+        width: 118px;
+    }
+
+    .img-container {
+        width: 118px;
+    }
+}
+  
+  /* Desktops, telas grandes */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    
+}
+  
+  /* Telas muito grandes, TVs */
+@media only screen and (min-width: 1201px) {
+    .cartao-produtos {
+        justify-content: flex-start;
+        align-content: flex-start;
+    }
+}
+  

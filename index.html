@@ -10,8 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 </head>
 <body>
 
@@ -32,9 +34,12 @@
             <div class="caixa-form-produto">
                 <form data-form>
                     <h1 class="titulo-add-produto">Adicionar produto</h1>
-                    <input type="text" placeholder="Ex: Funko" data-name>
-                    <input type="text" placeholder="Ex: 45" data-price>
-                    <input type="text" placeholder="Ex: https://bn0.gstatic.com/img?q=tn:d9G" data-image>
+                    <input type="text" name="nome" id="nome" placeholder="Ex: Funko" data-name required>
+                    <span class="mensagem-erro"></span>
+                    <input type="text" name="preco" id="preco" placeholder="Ex: 45" data-price required>
+                    <span class="mensagem-erro"></span>
+                    <input type="text" name="imagem" id="imagem" placeholder="Ex: https://bn0.gstatic.com/img?q=tn:d9G" data-image required>
+                    <span class="mensagem-erro"></span>
     
                     <div class="caixa-btn">
                         <button type="submit" class="btn-add" id="button">Adicionar</button>
@@ -55,5 +60,8 @@
     </footer>
 
     <script src="./assets/js/controller/main.js" type="module"></script>
+    <script src="./assets/js/controller/deleteProduct.js" type="module"></script>
+    <script src="./assets/js/controller/validate.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </body>
 </html>
